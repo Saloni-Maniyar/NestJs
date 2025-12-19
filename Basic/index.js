@@ -1,0 +1,12 @@
+console.log("Hello world");
+var uname = 'Saloni';
+console.log("Name here : ", uname);
+console.log(typeof uname);
+var yearOfStudy;
+console.log(typeof yearOfStudy);
+yearOfStudy = 2;
+console.log(yearOfStudy);
+console.log(typeof yearOfStudy);
+var rollno = 123;
+console.log(rollno);
+console.log(typeof rollno);
