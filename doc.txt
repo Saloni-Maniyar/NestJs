@@ -1,0 +1,36 @@
+prisma orm to be checked
+prettier :
+npm install --save-dev prettier
+
+
+typescript : statically typed
+
+npm i -g typescript
+S F:\NestJS> tsc -version
+Version 5.9.3
+
+
+PS F:\NestJS> tsc -version
+Version 5.9.3
+PS F:\NestJS> tsc index.ts
+error TS6053: File 'index.ts' not found.
+  The file is in the program because:
+    Root file specified for compilation
+
+
+Found 1 error.
+
+PS F:\NestJS> cd Basic
+PS F:\NestJS\Basic> tsc index.ts
+PS F:\NestJS\Basic> npx tsc --init
+
+Created a new tsconfig.json                                                      
+                                                                              TS 
+You can learn more at https://aka.ms/tsconfig
+PS F:\NestJS\Basic> node index.js
+Hello world
+PS F:\NestJS\Basic> 
+
+
+#variable declarationn
+let variableName: Type = value;

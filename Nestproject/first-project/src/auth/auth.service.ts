@@ -1,17 +1,11 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from "@nestjs/common";
 
-@Injectable()
-export class AuthService {
-    registerUser(){
-        return {message:'User registered successfully!!'}
+@Injectable({})
+export class AuthService{
+    signup(){
+        return "I am signed up!!"
     }
-    getUsers(){
-        return {
-            user:{
-                username:'Saloni',
-                role:'backend dev',
-            }
-        }
+    signin(){
+        return "I am signed in!!"
     }
 }
-
